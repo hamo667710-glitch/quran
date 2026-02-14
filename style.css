@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.quran-display {
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 2px solid #eee;
+    line-height: 2.5;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.ayah {
+    display: inline;
+    color: #2c3e50;
+}
+
+.ayah-number {
+    font-size: 16px;
+    background: #3498db;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
